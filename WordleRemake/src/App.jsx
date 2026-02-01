@@ -19,6 +19,13 @@ function App() {
         <h1>Wordle</h1>
         <p> Welcome to WORDLE!! In this version of wordle you can choose to play between 4 and 7 letter words</p>
       </div>
+      <h3>Choose your word length:</h3>
+      <div className="button-container">
+        <button className="button-33" role="button">4 Letters</button>
+        <button className="button-33" role="button">5 Letters</button>
+        <button className="button-33" role="button">6 Letters</button>
+        <button className="button-33" role="button">7 Letters</button>
+      </div>
     </>
   )
 }
